@@ -22,7 +22,7 @@ if(isset($Name) && isset($Phone) && isset($Email)){
     
     if(mysqli_query($conn, $sql)){
         echo"<script> alert('Thank you for contacting us.');
-          document.location='../index.php'
+          document.location='../index.html'
          </script>";
         /* other method to give response
          header("Location:../index.php?UserC=Thanks#contact");  
